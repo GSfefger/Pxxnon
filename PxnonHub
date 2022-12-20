@@ -4,7 +4,7 @@ local Tab = Window:NewTab("System Key")
 local Section = Tab:NewSection("System Key = Key: NoKey")
 
 local SysemKey = {
-    "DVE”
+    "DVE"
 }
 
 Section:NewTextBox("Key", "enter", function(t)
